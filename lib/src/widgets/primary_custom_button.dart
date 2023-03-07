@@ -15,7 +15,7 @@ class PrimaryButton extends StatelessWidget {
   const PrimaryButton(
       {super.key,
       this.text = "",
-        this.width,
+      this.width,
       this.onPressed,
       this.elevation = 0,
       //Active Button Color
@@ -24,8 +24,7 @@ class PrimaryButton extends StatelessWidget {
       this.borderRadius = 10,
       this.paddingVert = 10.4,
       this.paddingHoriz = 0,
-      required this.inActiveButtonColor
-      });
+      required this.inActiveButtonColor});
 
   @override
   Widget build(BuildContext context) {
