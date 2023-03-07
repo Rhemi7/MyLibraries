@@ -24,6 +24,7 @@ class PrimaryButton extends StatelessWidget {
       this.borderRadius = 10,
       this.paddingVert = 10.4,
       this.paddingHoriz = 0,
+        //Inactive Button Color
       required this.inActiveButtonColor});
 
   @override
